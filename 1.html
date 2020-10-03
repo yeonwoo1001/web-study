@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>네이버 : 로그인</title>
+   <style>
+      a
+      {
+        color:green;
+        font-size:60px;
+        text-align: center; /*이부분 코드가 실행이 안됩니다*/
+        text-decoration:none;
+        }
+
+      body{background-color: #e9e9e9}
+
+      .button /*이부분 코드가 실행이 안됩니다*/
+      {
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><a href="https://www.naver.com/" class="main" title="Naver"><strong>NAVER</strong></a></h1>
+  <div><input type="text" value="아이디" onchange="alert('잘못된 아이디 혹은 패스워드 입니다.')"></div>
+  <div><input type="text" value="비밀번호" onchange="alert('잘못된 아이디 혹은 패스워드 입니다.')"></div>
+  <div><input type="button" value="로그인" onclick="alert('정보를 다시 입력하십시오.')"></div>
+  </body>
+
+</html>
